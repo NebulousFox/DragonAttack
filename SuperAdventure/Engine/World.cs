@@ -149,7 +149,7 @@ namespace Engine
             bridge.LocationToWest = guardPost;
             bridge.LocationToEast = spiderField;
 
-            spiderField.LocationToEast = bridge;
+            spiderField.LocationToWest = bridge;
 
             //Add the lcoations to the static list
             Locations.Add(home);
